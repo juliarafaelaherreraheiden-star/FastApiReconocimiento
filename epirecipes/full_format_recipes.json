@@ -1,0 +1,171 @@
+[
+    {
+        "id": 0,
+        "title": "Leche Asada",
+        "ingredients": [
+            "Leche",
+            "Huevos",
+            "Azúcar",
+            "Esencia de vainilla",
+            "Canela en polvo (opcional)",
+            "Ralladura de limón (opcional)"
+        ],
+        "categories": [
+            "casero"
+        ],
+        "calories": 280,
+        "protein": 0,
+        "fat": 0,
+        "sodium": 0,
+        "rating": 0.0,
+        "date": null,
+        "desc": "1. Preparar la mezcla\r\n\r\nEn un bol grande, bate los huevos con el azúcar hasta que estén bien integrados. Añade la leche, la esencia de vainilla y, si deseas, un poco de ralladura de limón.",
+        "directions": [
+            "1. Preparar la mezcla\r\n\r\nEn un bol grande, bate los huevos con el azúcar hasta que estén bien integrados. Añade la leche, la esencia de vainilla y, si deseas, un poco de ralladura de limón.",
+            "2. Verter en moldes\r\n\r\nColoca la mezcla en moldecitos individuales resistentes al horno (pueden ser de cerámica o aluminio). No los llenes hasta el borde.\r\n\r\nPrecalienta el horno a 180°C (350°F). Lleva los moldes al horno y cocina durante 40–45 minutos, hasta que estén cuajados y la superficie esté dorada.\r\nPuedes pinchar con un palillo: debe salir limpio cuando ya esté cocido.",
+            "3. Enfriar y servir\r\n\r\nRetira del horno, deja enfriar a temperatura ambiente y luego refrigera. Sirve frío, con un toque de canela espolvoreada si lo deseas."
+        ]
+    },
+    {
+        "id": 1,
+        "title": "Sopa de maní",
+        "ingredients": [
+            "maní",
+            "aceite vegetal",
+            "ajo",
+            "cebolla ",
+            "perefil",
+            "orégano",
+            "zanahoria ",
+            "caldo de vegetales",
+            "mostaccioli (pasta pequeña)",
+            "cúrcuma",
+            "garbanzos enlatados, enjuagados y escurridos",
+            "papas",
+            "sal",
+            "perefil"
+        ],
+        "categories": [
+            "casero"
+        ],
+        "calories": 352,
+        "protein": 0,
+        "fat": 0,
+        "sodium": 0,
+        "rating": 0.0,
+        "date": null,
+        "desc": "Hervir el maní durante unos 30 minutos o hasta que estén blandos. Dejar enfriar.",
+        "directions": [
+            "Hervir el maní durante unos 30 minutos o hasta que estén blandos. Dejar enfriar.",
+            "En una olla grande a fuego medio, poner 2 cucharadas de aceite vegetal y saltear el ajo, la cebolla, el perejil y el orégano hasta que estén blandos, aproximadamente de 3 a 4 minutos.",
+            "Agregar las zanahorias y cocinar por 2 minutos más.",
+            "Agregar 4 tazas de agua o caldo de vegetales y llevar a ebullición. Reducir el fuego a bajo y cocinar a fuego lento con la olla tapada durante unos 30 a 40 minutos.",
+            "Mientras se cocina la sopa, preparar la pasta de maní. Poner el maní hervido en una licuadora o procesador de alimentos y licuar con una taza de agua o caldo hasta obtener una pasta espesa y homogénea.",
+            "Verter la pasta en una sartén con 1 cucharada de aceite. Agregar la cúrcuma y revolver durante 2 a 3 minutos.",
+            "Agregar la mezcla a la olla de sopa, revolviendo para integrar.",
+            "Poner el aceite restante en una sartén y tostar la pasta mostaccioli. Revolver constantemente para evitar que se queme. Esto ayuda a que la pasta mantenga su forma mientras se cocina en la sopa.",
+            "Agregar la pasta a la sopa en los últimos 15 minutos de cocción.\r\nAntes de servir añadir las papas cocidas y los garbanzos. La consistencia de la sopa debe ser espesa.\r\nProbar la sopa y agregar sal si es necesario.\r\nSi se desea una sopa más diluida, agregar el agua o caldo restante hasta obtener la consistencia deseada.",
+            "Servir en tazones, adornada con perejil picado.\r\n\r\nNota:\r\nHay muchas variedades regionales de sopa de mani, dependiendo de a quién le preguntes. Algunos piden pasta, otros arroz, otros papas y guisantes, y otros usan pimientos rojos y apio.\r\n\r\nEn Bolivia, un país en el corazón de América del Sur, se come sopa casi todos los días. Servido al mediodía, una comida principal típica consta de dos platos, sopa y segundo, que se traducen como sopa y segundo (refiriéndose al segundo plato). Esta es una de las versiones más populares de un favorito nacional."
+        ]
+    },
+    {
+        "id": 2,
+        "title": "Arroz con Leche",
+        "ingredients": [
+            "Arroz",
+            "Leche entera",
+            "Agua",
+            "Azúcar",
+            "Canela en rama",
+            "Esencia de vainilla (opcional)",
+            "Canela en polvo (para servir)",
+            "Cáscara de limón"
+        ],
+        "categories": [
+            "casero"
+        ],
+        "calories": 300,
+        "protein": 0,
+        "fat": 0,
+        "sodium": 0,
+        "rating": 0.0,
+        "date": null,
+        "desc": "1. Cocinar el arroz y agregar leche\r\n\r\nEn una olla, coloca el arroz, la canela en rama y el agua. Cocina a fuego medio hasta que el agua se evapore y el arroz esté casi cocido (unos 10 minutos).\r\nAñade la leche entera y la cáscara de limón. Cocina a fuego bajo durante 25–30 minutos, revolviendo frecuentemente para que no se pegue. El arroz debe quedar bien suave y la mezcla cremosa.",
+        "directions": [
+            "1. Cocinar el arroz y agregar leche\r\n\r\nEn una olla, coloca el arroz, la canela en rama y el agua. Cocina a fuego medio hasta que el agua se evapore y el arroz esté casi cocido (unos 10 minutos).\r\nAñade la leche entera y la cáscara de limón. Cocina a fuego bajo durante 25–30 minutos, revolviendo frecuentemente para que no se pegue. El arroz debe quedar bien suave y la mezcla cremosa.",
+            "2. Endulzar y aromatizar\r\n\r\nAgrega el azúcar y la esencia de vainilla si usas. Cocina por 5 minutos más, mezclando bien.",
+            "3. Servir\r\n\r\nRetira del fuego. Deja enfriar un poco y sirve tibio o frío, espolvoreando canela en polvo por encima."
+        ]
+    },
+    {
+        "id": 3,
+        "title": "Sopa de Verduras",
+        "ingredients": [
+            "Papa",
+            "Zanahoria",
+            "Arvejas",
+            "Habas",
+            "Cebolla",
+            "Ajo",
+            "Apio",
+            "Fideo cabello de ángel",
+            "Agua",
+            "Sal",
+            "Pimienta",
+            "Aceite",
+            "Óregano seco",
+            "Perejil picado"
+        ],
+        "categories": [
+            "casero"
+        ],
+        "calories": 120,
+        "protein": 0,
+        "fat": 0,
+        "sodium": 0,
+        "rating": 0.0,
+        "date": null,
+        "desc": "1. Sofrito base\r\n\r\nEn una olla mediana, calienta el aceite. Sofríe la cebolla y el ajo picados hasta que estén dorados y fragantes (unos 3-4 minutos).",
+        "directions": [
+            "1. Sofrito base\r\n\r\nEn una olla mediana, calienta el aceite. Sofríe la cebolla y el ajo picados hasta que estén dorados y fragantes (unos 3-4 minutos).",
+            "2. Agregar verduras duras\r\n\r\nAñade la zanahoria, papa y apio. Mezcla bien para que se impregnen del sabor del sofrito. Cocina revolviendo por 2 minutos.",
+            "3. Verter el caldo\r\n\r\nAgrega el caldo de verduras (o agua) y lleva a ebullición. Luego baja el fuego a medio y cocina por 15 minutos, con olla parcialmente tapada.",
+            "4. Agregar arvejas y habas\r\n\r\nAñade las arvejas y habas. Cocina por otros 10 minutos hasta que estén blandas.",
+            "5. Agregar el fideo\r\n\r\nAgrega el fideo cabello de ángel. Cocina por 5 minutos, revolviendo ocasionalmente para que no se pegue.",
+            "6. Sazonar\r\n\r\nSazona con sal, pimienta y orégano seco al gusto. Cocina 2 minutos más para que todo se integre.",
+            "7. Servir\r\n\r\nSirve caliente, espolvoreando perejil fresco picado. Puedes acompañar con pan tostado."
+        ]
+    },
+    {
+        "id": 4,
+        "title": "Sajta de Pollo",
+        "ingredients": [
+            "Pollo",
+            "Cebolla",
+            "Ajo",
+            "Papa",
+            "Aji amarillo molido",
+            "Chuño",
+            "Comino"
+        ],
+        "categories": [
+            "casero"
+        ],
+        "calories": 450,
+        "protein": 0,
+        "fat": 0,
+        "sodium": 0,
+        "rating": 0.0,
+        "date": null,
+        "desc": "1. Cocer el pollo\r\n\r\nColoca las presas de pollo en una olla con agua y sal. Cocina a fuego medio durante aproximadamente 25 minutos, hasta que estén bien cocidas pero no deshaciéndose. Guarda el caldo para usar más adelante.",
+        "directions": [
+            "1. Cocer el pollo\r\n\r\nColoca las presas de pollo en una olla con agua y sal. Cocina a fuego medio durante aproximadamente 25 minutos, hasta que estén bien cocidas pero no deshaciéndose. Guarda el caldo para usar más adelante.",
+            "2. Preparar el chuño\r\n\r\nRemoja el chuño en agua desde la noche anterior. Al día siguiente, lávalo bien y cuécelo en agua hirviendo con un poco de sal durante 20 minutos hasta que esté suave. Reserva.",
+            "3. Freír la cebolla y el ajo\r\n\r\nEn una sartén amplia, calienta el aceite y sofríe la cebolla finamente picada hasta que esté transparente (unos 5 minutos). Luego agrega el ajo picado y cocina por 1 minuto más",
+            "4. Agregar el ají y las especias\r\n\r\nAñade el ají amarillo molido a la sartén con la cebolla y el ajo. Cocina removiendo constantemente durante 5 a 7 minutos hasta que el ají pierda el sabor crudo. Agrega comino, sal y pimienta al gusto",
+            "5. Incorporar el pollo\r\n\r\nAgrega las presas cocidas al sofrito y vierte 1 a 2 tazas del caldo de pollo reservado. Cocina todo junto por 10 minutos más, dejando que los sabores se integren bien.",
+            "6. Cocer las papas\r\n\r\nMientras tanto, cuece las papas peladas enteras en una olla con agua y sal hasta que estén suaves (20-25 minutos). Resérvalas calientes para servir.",
+            "7. Montaje del plato\r\n\r\nEn cada plato sirve una porción de sajta de pollo, acompañado con 2 papas enteras cocidas, una porción de chuño cocido, y espolvorea con perejil fresco picado."
+        ]
+    }
+]
