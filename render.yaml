@@ -2,7 +2,19 @@ services:
   - type: web
     name: backend
     runtime: python
-    buildCommand: pip install -r backend/requirements.txt
+    buildCommand: pip install --upgrade pip && pip install -r backend/requirements.txt
     startCommand: uvicorn backend.main:app --host 0.0.0.0 --port $PORT
     plan: free
     region: oregon
+    envVars:
+      - key: PYTHON_VERSION
+        value: "3.11"
+
+databases: []
+
+# Si más adelante quieres añadir Redis o KeyValue
+# databases:
+#   - name: my-redis
+#     type: redis
+#     plan: free
+#     region: oregon
