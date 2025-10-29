@@ -1,4 +1,4 @@
-#!c:\Users\HP\Downloads\recipes_search_platform-main\BUSCADOR_INDICE_OPENSEARCH\.venv\Scripts\python.exe
+#!c:\users\hp\downloads\recipes_search_platform-main\buscador_indice_opensearch\.venv\scripts\python.exe
 # -*- coding: utf-8 -*-
 # Copyright 2025 Google LLC
 #
