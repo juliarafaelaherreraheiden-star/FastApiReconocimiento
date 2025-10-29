@@ -14,23 +14,26 @@ from firebase_admin import credentials, initialize_app
 # Configuración Firebase
 # ---------------------
 
-firebase_cred_json = os.getenv("FIREBASE_CREDENTIALS")
-if not firebase_cred_json:
-    raise Exception("No se encontró variable de entorno FIREBASE_CREDENTIALS")
+def get_firestore_client():
+    """Inicializa Firebase solo una vez y devuelve el cliente Firestore."""
+    import firebase_admin
+    from firebase_admin import credentials, firestore
+    import json, os
 
-cred_dict = json.loads(firebase_cred_json)
+    if not firebase_admin._apps:
+        firebase_cred_json = os.getenv("FIREBASE_CREDENTIALS")
+        if not firebase_cred_json:
+            raise Exception("No se encontró variable de entorno FIREBASE_CREDENTIALS")
 
-# 🔹 ESTA LÍNEA ES NECESARIA EN TU CASO
-cred_dict['private_key'] = cred_dict['private_key'].replace('\\n', '\n')
+        cred_dict = json.loads(firebase_cred_json)
+        cred_dict["private_key"] = cred_dict["private_key"].replace("\\n", "\n")
+        cred = credentials.Certificate(cred_dict)
+        firebase_admin.initialize_app(cred)
 
-cred = credentials.Certificate(cred_dict)
-firebase_admin.initialize_app(cred)
+    return firestore.client()
 
-if not firebase_admin._apps:
-    firebase_admin.initialize_app(cred)
-
-db = firestore.client()
-
+# Llamamos a la función solo cuando hace falta
+db = get_firestore_client()
 
 # ---------------------
 # Configuración OpenSearch

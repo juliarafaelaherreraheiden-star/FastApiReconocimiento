@@ -2,20 +2,33 @@
 from opensearchpy import OpenSearch
 from dotenv import load_dotenv
 import os
+from urllib.parse import urlparse
 
-load_dotenv()  # Carga desde .env
+# Cargar variables desde el archivo .env
+load_dotenv()
 
-host = os.getenv('OPENSEARCH_HOST')
-port = int(os.getenv('OPENSEARCH_PORT', 443))
-user = os.getenv('OPENSEARCH_USER')  # antes: OPENSEARCH_USERNAME
-password = os.getenv('OPENSEARCH_PASS')  # antes: OPENSEARCH_PASSWORD
+bonsai_url = os.getenv("OPENSEARCH_HOST")
 
+if not bonsai_url:
+    raise ValueError("❌ No se encontró OPENSEARCH_HOST en el archivo .env")
+
+# Analizar la URL para extraer host, usuario y contraseña
+parsed = urlparse(bonsai_url)
+host = parsed.hostname
+port = parsed.port or 443
+scheme = parsed.scheme
+user = parsed.username
+password = parsed.password
+
+# Crear cliente de OpenSearch
 client = OpenSearch(
     hosts=[{"host": host, "port": port}],
     http_auth=(user, password),
-    use_ssl=True,
-    verify_certs=False,
-    ssl_assert_hostname=True,
-    ssl_show_warn=True,
+    use_ssl=(scheme == "https"),
+    verify_certs=True,
+    ssl_assert_hostname=False,
+    ssl_show_warn=False,
     http_compress=True
 )
+
+print(f"✅ Conectado a OpenSearch en {host}:{port} (SSL={scheme == 'https'})")
