@@ -107,23 +107,29 @@ def buscar_recetas(query, index="recetas", size=5, return_hits=False):
     for hit in hits:
         source = hit["_source"]
 
-        pasos_raw = source.get("pasos", "")
         pasos_lista = []
+        imagen_final = source.get("imagenUrl", "")  # esto casi siempre está vacío
+        pasos_raw = source.get("pasos", [])
 
-        if isinstance(pasos_raw, str):
+        if isinstance(pasos_raw, list):
+            pasos_lista = pasos_raw
+            # buscar última imagen no nula
+            for paso in reversed(pasos_raw):
+                if paso.get("imagenUrl"):
+                    imagen_final = paso["imagenUrl"]
+                    break
+        elif isinstance(pasos_raw, str):
             lineas = [linea.strip() for linea in pasos_raw.split('.') if linea.strip()]
             pasos_lista = [
-                {"descripcion": linea, "imagen_url": "", "orden": idx + 1}
+                {"descripcion": linea, "imagenUrl": "", "orden": idx + 1}
                 for idx, linea in enumerate(lineas)
             ]
-        elif isinstance(pasos_raw, list):
-            pasos_lista = pasos_raw
 
         recetas.append({
             "id": hit["_id"],
             "titulo": source.get("titulo", "").capitalize(),
             "descripcion": source.get("descripcion", ""),
-            "imagenUrl": source.get("imagenUrl", ""),
+            "imagenUrl": imagen_final,  # ahora toma la última imagen de pasos
             "calorias": source.get("calorias", 0),
             "tiempoPreparacion": source.get("tiempoPreparacion", ""),
             "porciones": source.get("porciones", 1),
@@ -132,9 +138,8 @@ def buscar_recetas(query, index="recetas", size=5, return_hits=False):
             "pasos": pasos_lista,
             "likes": source.get("likes", 0),
             "popup_clicks": source.get("popup_clicks", 0),
-            "liked_by": source.get("liked_by", [])  # si lo estás usando en tu lógica de likes
+            "liked_by": source.get("liked_by", [])
         })
-
 
 
     if return_hits:
