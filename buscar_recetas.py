@@ -121,9 +121,9 @@ def buscar_recetas(query, index="recetas", size=5, return_hits=False):
 
         recetas.append({
             "id": hit["_id"],
-            "titulo": source.get("titulo", ""),
+            "titulo": source.get("titulo", "").capitalize(),
             "descripcion": source.get("descripcion", ""),
-            "imagen_final_url": source.get("imagen_final_url", ""),
+            "imagenUrl": source.get("imagenUrl", ""),
             "calorias": source.get("calorias", 0),
             "tiempoPreparacion": source.get("tiempoPreparacion", ""),
             "porciones": source.get("porciones", 1),
